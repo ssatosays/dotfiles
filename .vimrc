@@ -51,3 +51,28 @@ nnoremap Y y$
 set showmatch
 set matchtime=1
 
+" vim-plug
+call plug#begin()
+
+" airblade/vim-gitgutter
+Plug 'airblade/vim-gitgutter'
+set updatetime=250
+highlight GitGutterAdd ctermfg=blue ctermbg=brown
+
+" scrooloose/nerdtree
+"   - open (Ctrl + e)
+"   - cur (Ctrl + w, h-j-k-l)
+Plug 'scrooloose/nerdtree'
+let NERDTreeShowHidden=1
+nnoremap <C-e> :NERDTree<CR>
+
+" vim-airline/vim-airline
+" vim-airline/vim-airline-themes
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+let AirlineTheme='dark'
+
+" tpope/vim-fugitive
+Plug 'tpope/vim-fugitive'
+
+call plug#end()
