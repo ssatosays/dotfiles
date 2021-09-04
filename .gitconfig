@@ -3,3 +3,5 @@
 	email = ssatosays@gmail.com
 [core]
 	editor = vi
+[credential "https://github.com"]
+    helper = !/usr/bin/gh auth git-credential
