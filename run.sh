@@ -3,7 +3,9 @@
 dotfiles=`ls -A -F |grep -v '/$' |grep '^\..*$'`
 
 for f in ${dotfiles}; do
-    ln -s ~/dotfiles/${f} ../
+    if [ ! -L ~/${f} ]; then
+        ln -s ~/dotfiles/${f} ../
+    fi
 done
 
 echo 'Created symbolic links.'

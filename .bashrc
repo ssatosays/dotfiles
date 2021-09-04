@@ -116,6 +116,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
+if [ -f ~/.bash_prompt ]; then
+    . ~/.bash_prompt
+fi
 
 cd
 export SCREENDIR=$HOME/.screen
