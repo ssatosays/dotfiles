@@ -36,5 +36,6 @@ if [ -f ~/.bash_prompt ]; then
     . ~/.bash_prompt
 fi
 
-# started directory
-cd ~/develop
+# set start directory
+cd ~/
+clear
