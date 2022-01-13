@@ -8,7 +8,7 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
 alias gs='git status'
-# alias
+alias gb='git branch'
 
 alias j='jobs -l'
 alias d='dirs -v'
