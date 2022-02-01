@@ -3,3 +3,4 @@ defencoding utf8
 encoding utf8 utf8
 startup_message off
 vbell off
+shell $SHELL
