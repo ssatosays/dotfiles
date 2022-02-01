@@ -9,6 +9,7 @@ alias egrep='egrep --color=auto'
 
 alias gs='git status'
 alias gb='git branch'
+alias gitlog='git log'
 
 alias j='jobs -l'
 alias d='dirs -v'
