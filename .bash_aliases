@@ -10,6 +10,8 @@ alias egrep='egrep --color=auto'
 alias gs='git status'
 alias gb='git branch'
 alias gitlog='git log'
+alias gitdiff='git diff'
+alias gitdiffc='git diff --cached'
 
 alias j='jobs -l'
 alias d='dirs -v'
